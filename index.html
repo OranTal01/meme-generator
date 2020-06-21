@@ -65,16 +65,16 @@
         <div class="meme-control">
             <input type="text" class="control-txt-input" value="" onkeyup="onChangeText(value)" title="Change Text"
                 data-trans="change-text">
-            <div class="btn-group1">
-                <button class="control-btn" onclick="onSwitchLines()" title="Switch Text" data-trans="switch-text"><img
-                        src="icons/switch.png" /></button>
-                <button class="control-btn" onclick="onAddLine()" title="Add New Text" data-trans="new-text"><img
-                        src="icons/add.png" /></button>
-                <button class="control-btn" onclick="onDeleteLine()" title="Delete Text" data-trans="delete-text"><img
-                        src="icons/trash.png" /></button>
+            <button class="control-btn" onclick="onSwitchLines()" title="Switch Text" data-trans="switch-text"><img
+                    src="icons/switch.png" /></button>
+            <button class="control-btn" onclick="onAddLine()" title="Add New Text" data-trans="new-text"><img
+                    src="icons/add.png" /></button>
+            <button class="control-btn" onclick="onDeleteLine()" title="Delete Text" data-trans="delete-text"><img
+                    src="icons/trash.png" /></button>
+            <button class="control-btn">
                 <input type="file" id="file" class="inputfile" name="image" onchange="onUploadImg(event)" />
                 <label for="file" data-trans="upload-img">Upload image</label>
-            </div>
+            </button>
             <button class="control-btn" onclick="onChangeSize(1)" title="Increase" data-trans="increase"><img
                     src="icons/increase-font.png" /></button>
             <button class="control-btn" onclick="onChangeSize(-1)" title="Decrease" data-trans="decrease"><img
@@ -113,7 +113,9 @@
         <img class="about-img" src="img/mon.jpg">
         <div class="about-info">
             <h1 data-trans="about-name">MemeGen</h1>
-            <p data-trans="about-info">With Meme Generator you can create the funniest memes and share them with your friends on Facebook, Download to your computer, or save on the website (via Local Storage). You can use in our photo gallery, or to upload your own image, add text, stickers, choose fonts and colors.</p>
+            <p data-trans="about-info">With Meme Generator you can create the funniest memes and share them with your
+                friends on Facebook, Download to your computer, or save on the website (via Local Storage). You can use
+                in our photo gallery, or to upload your own image, add text, stickers, choose fonts and colors.</p>
             <div class="about-contact">
                 <button title="Linkedin"><img src="icons/linkedin-logo.png" /></button>
                 <button title="Facebook"><img src="icons/facebook-logo.png" /></button>
