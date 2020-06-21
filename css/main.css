@@ -279,27 +279,6 @@ canvas {
     padding: 40px 0;
 }
 
-    @media (max-width: 550px) {
-        #meme-canvas{
-        width: 350px;
-        height: 300px;
-    }
-}
-
-@media (max-width: 400px) {
-    #meme-canvas{
-    width: 300px;
-    height: 250px;
-}
-}
-
-@media (max-width: 350px) {
-    #meme-canvas{
-    width: 250px;
-    height: 200px;
-}
-}
-
 /*** Control ***/
 
 .meme-control {
