@@ -32,9 +32,9 @@ body {
     margin: 0;
 }
 
-body.rtl {
+/* body.rtl {
     direction: rtl;
-}
+} */
 
 .logo {
     width: 133px;
@@ -253,8 +253,8 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .about-contact button {
-    width: 39px;
-    height: 39px;
+    width: 46px;
+    height: 45px;
     border: none;
     border-radius: 12px;
     background-color: #4e8bb0;
@@ -629,7 +629,7 @@ a {
         width: 70px;
 
     }
-    
+
     .inputfile + label{
         width: unset;
     }
