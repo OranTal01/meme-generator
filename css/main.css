@@ -624,6 +624,12 @@ a {
     .share-btn {
     font-size: 1rem;
     }
+
+    .save-btn{
+        width: 70px;
+
+    }
+    
     .inputfile + label{
         width: unset;
     }
