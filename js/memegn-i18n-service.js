@@ -1,5 +1,5 @@
 
-var gCurrLang = 'en'
+var gCurrLang = 'en';
 
 var gTrans = {
     'english': {
@@ -172,7 +172,7 @@ var gTrans = {
     },
     'save': {
         en: 'Save ',
-        he: 'שמירה',
+        he: 'שמור',
     },
     'download': {
         en: 'Download',
@@ -183,27 +183,27 @@ var gTrans = {
         he: 'שיתוף בפייסבוק',
     }
 
-}
+};
 
 
 function setLang(lang) {
-    gCurrLang = lang
-    doTrans()
+    gCurrLang = lang;
+    doTrans();
 }
 
 function doTrans() {
-    var els = document.querySelectorAll('[data-trans]')
+    var els = document.querySelectorAll('[data-trans]');
     els.forEach(el => {
         var txt = getTrans(el.dataset.trans);
-        if (el.title) el.title = txt
-        else if (el.placeholder) el.placeholder = txt
-        else el.innerText = txt
-    })
+        if (el.title) el.title = txt;
+        else if (el.placeholder) el.placeholder = txt;
+        else el.innerText = txt;
+    });
 }
 
 function getTrans(transKey) {
-    var langMap = gTrans[transKey]
-    var txt = langMap[gCurrLang]
-    if (!txt) txt = langMap['en']
-    return txt
+    var langMap = gTrans[transKey];
+    var txt = langMap[gCurrLang];
+    if (!txt) txt = langMap['en'];
+    return txt;
 }

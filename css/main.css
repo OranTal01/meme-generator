@@ -184,6 +184,7 @@ input::-webkit-calendar-picker-indicator {
     justify-content: center;
     align-content: center;
     padding: 40px 0;
+    min-height: calc(100vh - 246px);
 }
 
 .gallery-container img {
@@ -206,6 +207,7 @@ input::-webkit-calendar-picker-indicator {
 .meme-container{
     display: none;
     grid-template-columns: repeat(auto-fill, 240px);
+    min-height: calc(100vh - 246px);
     grid-gap: 20px;
     justify-content: center;
     align-content: center;
@@ -228,9 +230,10 @@ input::-webkit-calendar-picker-indicator {
 .about-container {
     display: none;
     align-items: center;
+    min-height: calc(100vh - 246px);
     padding: 40px 0;
     background-color: #ffffff;
-    margin: 25px 15%;
+    margin: 0 15%;
 }
 
 .about-img {
