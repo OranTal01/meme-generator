@@ -619,4 +619,12 @@ a {
         height: 55px;
         margin: 5px;
     }
+    .save-btn,
+    .download-btn,
+    .share-btn {
+    font-size: 1rem;
+    }
+    .inputfile + label{
+        width: unset;
+    }
 }
